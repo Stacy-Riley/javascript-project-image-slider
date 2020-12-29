@@ -93,23 +93,51 @@ textarea {
    Author's custom styles
    ========================================================================== */
 /************************************/
-/** Mobil Optimized First **/
+/** Desktop Optimized First **/
 /************************************/
 
 .carousel-container {
   width: 75%;
-  margin: 20px auto;
-  /*overflow: hidden;*/
+  margin: 40px auto;
+  overflow: hidden;
   border: 5px solid black;
+  position: relative;
 }
 .carousel-slide {
   display: flex;
   width: 100%;
-  height: 500px;
+  height: 480px;
 }
 
-.twitter-tweet {
-  margin: 10px;
+img {
+  object-fit: cover;
+  width: 100%;
+}
+
+#prevBtn {
+  position: absolute;
+  top: 50%;
+  z-index: 10;
+  left: 5%;
+  color: white;
+  cursor: pointer;
+  font-size: 2.5em;
+}
+
+#nextBtn {
+  position: absolute;
+  top: 50%;
+  z-index: 10;
+  right: 5%;
+  color: white;
+  cursor: pointer;
+  font-size: 2.5em;
+}
+
+footer p {
+  text-align: center;
+  font-size: .8em;
+  color: gray;
 }
 /*******************************************************/
 /** Navbar Section **/
