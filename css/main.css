@@ -103,6 +103,7 @@ textarea {
   border: 5px solid black;
   position: relative;
 }
+
 .carousel-slide {
   display: flex;
   width: 100%;
@@ -163,6 +164,9 @@ footer p {
     **** Tablet Styles ****
    =====================================================*/
 @media(min-width: 768px){
+  
+
+}
   /*******************************************************/
   /**** Navbar styles Tablet ****/ 
   /*******************************************************/
